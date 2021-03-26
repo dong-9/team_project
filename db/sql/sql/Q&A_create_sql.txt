@@ -1,0 +1,9 @@
+create table questions_tb (
+    seq number(3) primary key,
+    email varchar2(30) REFERENCES member_tb(email) ,
+    content varchar2(100) not null,
+    registration_date date default sysdate,
+    secret_write number(1) default 0,
+    answer_content varchar2(100) null,
+    answer_date date default sysdate
+);

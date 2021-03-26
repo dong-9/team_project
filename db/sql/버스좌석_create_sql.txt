@@ -1,0 +1,868 @@
+create table seoul_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table seoul_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+create table gyeonggi_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeonggi_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table incheon_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table incheon_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table gangwon_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gangwon_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+
+create table chungnam_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungnam_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table daejeon_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daejeon_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table chungbuk_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table chungbuk_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table jeonbuk_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonbuk_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table gyeongbuk_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongbuk_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table daegu_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table daegu_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table gwangju_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gwangju_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table jeonnam_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table jeonnam_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table gyeongnam_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table gyeongnam_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table ulsan_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table ulsan_busan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+
+
+create table busan_seoul (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_gyeonggi (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_incheon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_gangwon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_chungnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_daejeon (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_chungbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_jeonbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_gyeongbuk (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_daegu (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_gwangju (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_jeonnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_gyeongnam (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);
+create table busan_ulsan (
+    seat_number number(2) not null,
+    available_seat number(1) not null
+);

@@ -1,0 +1,19 @@
+CREATE TABLE update_bus_time_tb (
+	table_name VARCHAR2(40)
+);
+
+INSERT INTO update_bus_time_tb VALUES('BUSAM_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('CHUNGBUK_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('CHUNGNAM_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('DAEGU_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('DAEJEON_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('GANGWON_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('GWANGJU_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('GYEONGBUK_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('GYEONGGI_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('GYEONGNAM_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('INCHEON_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('JEONBUK_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('JEONNAM_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('SEOUL_TIME_TB');
+INSERT INTO update_bus_time_tb VALUES('ULSAN_TIME_TB');

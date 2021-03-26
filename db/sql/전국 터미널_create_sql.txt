@@ -1,0 +1,6 @@
+create table all_bus_tb (
+    area varchar2(10) not null,
+    terminal_name varchar2(30) not null,
+    terminal_address varchar2(80) not null,
+    terminal_phone varchar2(13)
+);

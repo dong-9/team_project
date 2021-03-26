@@ -1,0 +1,10 @@
+create table ticketing_detail_tb (
+    ticketing_number number(16) primary key,
+    email varchar2(30) REFERENCES member_tb(email),
+    departure_area varchar2(10) not null,
+    destination varchar2(10) not null,
+    number_of_tickets number(2) not null,
+    seat_number varchar2(20) not null,
+    departure_date varchar2(20) not null,
+    ticketing_status number(1)
+);

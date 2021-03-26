@@ -1,0 +1,244 @@
+
+INSERT INTO seoul_time_tb VALUES ('8:00', '경기', 1000 ,28 ,28,'seoul_gyeonggi');
+INSERT INTO seoul_time_tb VALUES ('9:00', '인천', 1000 ,28 ,28,'seoul_incheon');
+INSERT INTO seoul_time_tb VALUES ('10:00', '강원', 1000 ,28 ,28,'seoul_gangwon');
+INSERT INTO seoul_time_tb VALUES ('11:00', '충남', 1000 ,28 ,28,'seoul_chungnam');
+INSERT INTO seoul_time_tb VALUES ('12:00', '대전', 1000 ,28 ,28,'seoul_daejeon');
+INSERT INTO seoul_time_tb VALUES ('13:00', '충북', 1000 ,28 ,28,'seoul_chungbuk');
+INSERT INTO seoul_time_tb VALUES ('14:00', '전북', 1000 ,28 ,28,'seoul_jeonbuk');
+INSERT INTO seoul_time_tb VALUES ('15:00', '경북', 1000 ,28 ,28,'seoul_gyeongbuk');
+INSERT INTO seoul_time_tb VALUES ('16:00', '대구', 1000 ,28 ,28,'seoul_daegu');
+INSERT INTO seoul_time_tb VALUES ('17:00', '광주', 1000 ,28 ,28,'seoul_gwangju');
+INSERT INTO seoul_time_tb VALUES ('18:00', '전남', 1000 ,28 ,28,'seoul_jeonnam');
+INSERT INTO seoul_time_tb VALUES ('19:00', '경남', 1000 ,28 ,28,'seoul_gyeongnam');
+INSERT INTO seoul_time_tb VALUES ('20:00', '울산', 1000 ,28 ,28,'seoul_ulsan');
+INSERT INTO seoul_time_tb VALUES ('21:00', '부산', 1000 ,28 ,28,'seoul_busan');
+
+
+INSERT INTO gyeonggi_time_tb VALUES ('8:00', '서울',1000,28,28,'gyeonggi_seoul');
+INSERT INTO gyeonggi_time_tb VALUES ('9:00',	'인천',1000,28,28,'gyeonggi_incheon');
+INSERT INTO gyeonggi_time_tb VALUES ('10:00'	,'강원',1000,28,28,'gyeonggi_gangwon');
+INSERT INTO gyeonggi_time_tb VALUES ('11:00'	,'충남',1000,28,28,'gyeonggi_chungnam');
+INSERT INTO gyeonggi_time_tb VALUES ('12:00'	,'대전',1000,28,28,'gyeonggi_daejeon');
+INSERT INTO gyeonggi_time_tb VALUES ('13:00'	,'충북',1000,28,28,'gyeonggi_chungbuk');
+INSERT INTO gyeonggi_time_tb VALUES ('14:00'	,'전북',1000,28,28,'gyeonggi_jeonbuk');
+INSERT INTO gyeonggi_time_tb VALUES ('15:00'	,'경북',1000,28,28,'gyeonggi_gyeongbuk');
+INSERT INTO gyeonggi_time_tb VALUES ('16:00'	,'대구',1000,28,28,'gyeonggi_daegu');
+INSERT INTO gyeonggi_time_tb VALUES ('17:00'	,'광주',1000,28,28,'gyeonggi_gwangju');
+INSERT INTO gyeonggi_time_tb VALUES ('18:00'	,'전남',1000,28,28,'gyeonggi_jeonnam');
+INSERT INTO gyeonggi_time_tb VALUES ('19:00'	,'경남',1000,28,28,'gyeonggi_gyeongnam');
+INSERT INTO gyeonggi_time_tb VALUES ('20:00'	,'울산',1000,28,28,'gyeonggi_ulsan');
+INSERT INTO gyeonggi_time_tb VALUES ('21:00'	,'부산',1000,28,28,'gyeonggi_busan');
+
+
+INSERT INTO incheon_time_tb VALUES('8:00','서울',1000,28,28,'incheon_seoul');
+INSERT INTO incheon_time_tb VALUES('9:00','경기',1000,28,28,'incheon_gyeonggi');
+INSERT INTO incheon_time_tb VALUES('10:00','강원',1000,	28,28,'incheon_gangwon');
+INSERT INTO incheon_time_tb VALUES('11:00','충남',1000,	28,28,'incheon_chungnam');
+INSERT INTO incheon_time_tb VALUES('12:00','대전',1000,	28,28,'incheon_daejeon');
+INSERT INTO incheon_time_tb VALUES('13:00','충북',1000,	28,28,'incheon_chungbuk');
+INSERT INTO incheon_time_tb VALUES('14:00','전북',1000,	28,28,'incheon_jeonbuk');
+INSERT INTO incheon_time_tb VALUES('15:00','경북',1000,	28,28,'incheon_gyeongbuk');
+INSERT INTO incheon_time_tb VALUES('16:00','대구',1000,	28,28,'incheon_daegu');
+INSERT INTO incheon_time_tb VALUES('17:00','광주',1000,	28,28,'incheon_gwangju');
+INSERT INTO incheon_time_tb VALUES('18:00','전남',1000,	28,28,'incheon_jeonnam');
+INSERT INTO incheon_time_tb VALUES('19:00','경남',1000,	28,28,'incheon_gyeongnam');
+INSERT INTO incheon_time_tb VALUES('20:00','울산',1000,	28,28,'incheon_ulsan');
+INSERT INTO incheon_time_tb VALUES('21:00','부산',1000,	28,28,'incheon_busan');
+
+
+INSERT INTO gangwon_time_tb VALUES('8:00','서울',1000,28,28,'gangwon_seoul');
+INSERT INTO gangwon_time_tb VALUES('9:00','경기',1000,28,28,'gangwon_gyeonggi');
+INSERT INTO gangwon_time_tb VALUES('10:00','인천',1000,28,28,'gangwon_incheon');
+INSERT INTO gangwon_time_tb VALUES('11:00','충남',1000,28,28,'gangwon_chungnam');
+INSERT INTO gangwon_time_tb VALUES('12:00','대전',1000,28,28,'gangwon_daejeon');
+INSERT INTO gangwon_time_tb VALUES('13:00','충북',1000,28,28,'gangwon_chungbuk');
+INSERT INTO gangwon_time_tb VALUES('14:00','전북',1000,28,28,'gangwon_jeonbuk');
+INSERT INTO gangwon_time_tb VALUES('15:00','경북',1000,28,28,'gangwon_gyeongbuk');
+INSERT INTO gangwon_time_tb VALUES('16:00','대구',1000,28,28,'gangwon_daegu');
+INSERT INTO gangwon_time_tb VALUES('17:00','광주',1000,28,28,'gangwon_gwangju');
+INSERT INTO gangwon_time_tb VALUES('18:00','전남',1000,28,28,'gangwon_jeonnam');
+INSERT INTO gangwon_time_tb VALUES('19:00','경남',1000,28,28,'gangwon_gyeongnam');
+INSERT INTO gangwon_time_tb VALUES('20:00','울산',1000,28,28,'gangwon_ulsan');
+INSERT INTO gangwon_time_tb VALUES('21:00','부산',1000,28,28,'gangwon_busan');
+
+
+INSERT INTO chungnam_time_tb VALUES('8:00','서울',1000,28,28,'chungnam_seoul');
+INSERT INTO chungnam_time_tb VALUES('9:00','경기',1000	,28,28,'chungnam_gyeonggi');
+INSERT INTO chungnam_time_tb VALUES('10:00','인천',1000,28,28,'chungnam_incheon');
+INSERT INTO chungnam_time_tb VALUES('11:00','강원',1000,28,28,'chungnam_gangwon');
+INSERT INTO chungnam_time_tb VALUES('12:00','대전',1000,28,28,'chungnam_daejeon');
+INSERT INTO chungnam_time_tb VALUES('13:00','충북',1000,28,28,'chungnam_chungbuk');
+INSERT INTO chungnam_time_tb VALUES('14:00','전북',1000,28,28,'chungnam_jeonbuk');
+INSERT INTO chungnam_time_tb VALUES('15:00','경북',1000,28,28,'chungnam_gyeongbuk');
+INSERT INTO chungnam_time_tb VALUES('16:00','대구',1000,28,28,'chungnam_daegu');
+INSERT INTO chungnam_time_tb VALUES('17:00','광주',1000,28,28,'chungnam_gwangju');
+INSERT INTO chungnam_time_tb VALUES('18:00','전남',1000,28,28,'chungnam_jeonnam');
+INSERT INTO chungnam_time_tb VALUES('19:00','경남',1000,28,28,'chungnam_gyeongnam');
+INSERT INTO chungnam_time_tb VALUES('20:00','울산',1000,28,28,'chungnam_ulsan');
+INSERT INTO chungnam_time_tb VALUES('21:00','부산',1000,28,28,'chungnam_busan');
+
+
+INSERT INTO daejeon_time_tb VALUES('8:00','서울',1000,28,28,'daejeon_seoul');
+INSERT INTO daejeon_time_tb VALUES('9:00','경기',1000,28,28,'daejeon_gyeonggi');
+INSERT INTO daejeon_time_tb VALUES('10:00','인천',1000,	28,28,'daejeon_incheon');
+INSERT INTO daejeon_time_tb VALUES('11:00','강원',1000,	28,28,'daejeon_gangwon');
+INSERT INTO daejeon_time_tb VALUES('12:00','충남',1000,	28,28,'daejeon_chungnam');
+INSERT INTO daejeon_time_tb VALUES('13:00','충북',1000,	28,28,'daejeon_chungbuk');
+INSERT INTO daejeon_time_tb VALUES('14:00','전북',1000,	28,28,'daejeon_jeonbuk');
+INSERT INTO daejeon_time_tb VALUES('15:00','경북',1000,	28,28,'daejeon_gyeongbuk');
+INSERT INTO daejeon_time_tb VALUES('16:00','대구',1000,	28,28,'daejeon_daegu');
+INSERT INTO daejeon_time_tb VALUES('17:00','광주',1000,	28,28,'daejeon_gwangju');
+INSERT INTO daejeon_time_tb VALUES('18:00','전남',1000,	28,28,'daejeon_jeonnam');
+INSERT INTO daejeon_time_tb VALUES('19:00','경남',1000,	28,28,'daejeon_gyeongnam');
+INSERT INTO daejeon_time_tb VALUES('20:00','울산',1000,	28,28,'daejeon_ulsan');
+INSERT INTO daejeon_time_tb VALUES('21:00','부산',1000,	28,28,'daejeon_busan');
+
+
+INSERT INTO chungbuk_time_tb VALUES('8:00','서울',1000,28,28,'chungbuk_seoul');
+INSERT INTO chungbuk_time_tb VALUES('9:00','경기',1000,28,28,'chungbuk_gyeonggi');
+INSERT INTO chungbuk_time_tb VALUES('10:00','인천',1000,28,28,'chungbuk_incheon');
+INSERT INTO chungbuk_time_tb VALUES('11:00','강원',1000,28,28,'chungbuk_gangwon');
+INSERT INTO chungbuk_time_tb VALUES('12:00','충남',1000,28,28,'chungbuk_chungnam');
+INSERT INTO chungbuk_time_tb VALUES('13:00','대전',1000,28,28,'chungbuk_daejeon');
+INSERT INTO chungbuk_time_tb VALUES('14:00','전북',1000,28,28,'chungbuk_jeonbuk');
+INSERT INTO chungbuk_time_tb VALUES('15:00','경북',1000,28,28,'chungbuk_gyeongbuk');
+INSERT INTO chungbuk_time_tb VALUES('16:00','대구',1000,28,28,'chungbuk_daegu');
+INSERT INTO chungbuk_time_tb VALUES('17:00','광주',1000,28,28,'chungbuk_gwangju');
+INSERT INTO chungbuk_time_tb VALUES('18:00','전남',1000,28,28,'chungbuk_jeonnam');
+INSERT INTO chungbuk_time_tb VALUES('19:00','경남',1000,28,28,'chungbuk_gyeongnam');
+INSERT INTO chungbuk_time_tb VALUES('20:00','울산',1000,28,28,'chungbuk_ulsan');
+INSERT INTO chungbuk_time_tb VALUES('21:00','부산',1000,28,28,'chungbuk_busan');
+
+
+INSERT INTO jeonbuk_time_tb VALUES('8:00','서울',1000,28,28,'jeonbuk_seoul');
+INSERT INTO jeonbuk_time_tb VALUES('9:00','경기',1000,28,28,'jeonbuk_gyeonggi');
+INSERT INTO jeonbuk_time_tb VALUES('10:00','인천',1000,28,28,'jeonbuk_incheon');
+INSERT INTO jeonbuk_time_tb VALUES('11:00','강원',1000,28,28,'jeonbuk_gangwon');
+INSERT INTO jeonbuk_time_tb VALUES('12:00','충남',1000,28,28,'jeonbuk_chungnam');
+INSERT INTO jeonbuk_time_tb VALUES('13:00','대전',1000,28,28,'jeonbuk_daejeon');
+INSERT INTO jeonbuk_time_tb VALUES('14:00','충북',1000,28,28,'jeonbuk_chungbuk');
+INSERT INTO jeonbuk_time_tb VALUES('15:00','경북',1000,28,28,'jeonbuk_gyeongbuk');
+INSERT INTO jeonbuk_time_tb VALUES('16:00','대구',1000,28,28,'jeonbuk_daegu');
+INSERT INTO jeonbuk_time_tb VALUES('17:00','광주',1000,28,28,'jeonbuk_gwangju');
+INSERT INTO jeonbuk_time_tb VALUES('18:00','전남',1000,28,28,'jeonbuk_jeonnam');
+INSERT INTO jeonbuk_time_tb VALUES('19:00','경남',1000,28,28,'jeonbuk_gyeongnam');
+INSERT INTO jeonbuk_time_tb VALUES('20:00','울산',1000,28,28,'jeonbuk_ulsan');
+INSERT INTO jeonbuk_time_tb VALUES('21:00','부산',1000,28,28,'jeonbuk_busan');
+
+
+INSERT INTO gyeongbuk_time_tb VALUES('8:00','서울',1000,28,28,'gyeongbuk_seoul');
+INSERT INTO gyeongbuk_time_tb VALUES('9:00','경기',1000,28,28,'gyeongbuk_gyeonggi');
+INSERT INTO gyeongbuk_time_tb VALUES('10:00','인천',1000,28,28,'gyeongbuk_incheon');
+INSERT INTO gyeongbuk_time_tb VALUES('11:00	','강원',1000,28,28,'gyeongbuk_gangwon');
+INSERT INTO gyeongbuk_time_tb VALUES('12:00	','충남',1000,28,28,'gyeongbuk_chungnam');
+INSERT INTO gyeongbuk_time_tb VALUES('13:00	','대전',1000,28,28,'gyeongbuk_daejeon');
+INSERT INTO gyeongbuk_time_tb VALUES('14:00	','충북',1000,28,28,'gyeongbuk_chungbuk');
+INSERT INTO gyeongbuk_time_tb VALUES('15:00	','전북',1000,28,28,'gyeongbuk_jeonbuk');
+INSERT INTO gyeongbuk_time_tb VALUES('16:00	','대구',1000,28,28,'gyeongbuk_daegu');
+INSERT INTO gyeongbuk_time_tb VALUES('17:00	','광주',1000,28,28,'gyeongbuk_gwangju');
+INSERT INTO gyeongbuk_time_tb VALUES('18:00	','전남',1000,28,28,'gyeongbuk_jeonnam');
+INSERT INTO gyeongbuk_time_tb VALUES('19:00	','경남',1000,28,28,'gyeongbuk_gyeongnam');
+INSERT INTO gyeongbuk_time_tb VALUES('20:00	','울산',1000,28,28,'gyeongbuk_ulsan');
+INSERT INTO gyeongbuk_time_tb VALUES('21:00	','부산',1000,28,28,'gyeongbuk_busan');
+
+
+INSERT INTO  daegu_time_tb VALUES('8:00','서울',1000,28,28,'daegu_seoul');
+INSERT INTO  daegu_time_tb VALUES('9:00','경기',1000,28,28,'daegu_gyeonggi');
+INSERT INTO  daegu_time_tb VALUES('10:00','인천',1000,28,28,'daegu_incheon');
+INSERT INTO  daegu_time_tb VALUES('11:00','강원',1000,28,28,'daegu_gangwon');
+INSERT INTO  daegu_time_tb VALUES('12:00','충남',1000,28,28,'daegu_chungnam');
+INSERT INTO  daegu_time_tb VALUES('13:00','대전',1000,28,28,'daegu_daejeon');
+INSERT INTO  daegu_time_tb VALUES('14:00','충북',1000,28,28,'daegu_chungbuk');
+INSERT INTO  daegu_time_tb VALUES('15:00','전북',1000,28,28,'daegu_jeonbuk');
+INSERT INTO  daegu_time_tb VALUES('16:00','경북',1000,28,28,'daegu_gyeongbuk');
+INSERT INTO  daegu_time_tb VALUES('17:00','광주',1000,28,28,'daegu_gwangju');
+INSERT INTO  daegu_time_tb VALUES('18:00','전남',1000,28,28,'daegu_jeonnam');
+INSERT INTO  daegu_time_tb VALUES('19:00','경남',1000,28,28,'daegu_gyeongnam');
+INSERT INTO  daegu_time_tb VALUES('20:00','울산',1000,28,28,'daegu_ulsan');
+INSERT INTO  daegu_time_tb VALUES('21:00','부산',1000,28,28,'daegu_busan');
+
+
+INSERT INTO   gwangju_time_tb VALUES('8:00','서울',1000	,28,28,'gwangju_seoul');
+INSERT INTO   gwangju_time_tb VALUES('9:00','경기',1000,28,28,'gwangju_gyeonggi');
+INSERT INTO   gwangju_time_tb VALUES('10:00','인천',1000,28,28,'gwangju_incheon');
+INSERT INTO   gwangju_time_tb VALUES('11:00','강원',1000,28,28,'gwangju_gangwon');
+INSERT INTO   gwangju_time_tb VALUES('12:00','충남',1000,28,28,'gwangju_chungnam');
+INSERT INTO   gwangju_time_tb VALUES('13:00','대전',1000,28,28,'gwangju_daejeon');
+INSERT INTO   gwangju_time_tb VALUES('14:00','충북',1000,28,28,'gwangju_chungbuk');
+INSERT INTO   gwangju_time_tb VALUES('15:00','전북',1000,28,28,'gwangju_jeonbuk');
+INSERT INTO   gwangju_time_tb VALUES('16:00','경북',1000,28,28,'gwangju_gyeongbuk');
+INSERT INTO   gwangju_time_tb VALUES('17:00','대구',1000,28,28,'gwangju_daegu');
+INSERT INTO   gwangju_time_tb VALUES('18:00','전남',1000,28,28,'gwangju_jeonnam');
+INSERT INTO   gwangju_time_tb VALUES('19:00','경남',1000,28,28,'gwangju_gyeongnam');
+INSERT INTO   gwangju_time_tb VALUES('20:00','울산',1000,28,28,'gwangju_ulsan');
+INSERT INTO   gwangju_time_tb VALUES('21:00','부산',1000,28,28,'gwangju_busan');
+
+
+INSERT INTO  jeonnam_time_tb VALUES('8:00','서울',1000,28,28,'jeonnam_seoul');
+INSERT INTO  jeonnam_time_tb VALUES('9:00','경기',1000,28,28,'jeonnam_gyeonggi');
+INSERT INTO  jeonnam_time_tb VALUES('10:00','인천',1000,28,28,'jeonnam_incheon');
+INSERT INTO  jeonnam_time_tb VALUES('11:00','강원',1000,28,28,'jeonnam_gangwon');
+INSERT INTO  jeonnam_time_tb VALUES('12:00','충남',1000,28,28,'jeonnam_chungnam');
+INSERT INTO  jeonnam_time_tb VALUES('13:00','대전',1000,28,28,'jeonnam_daejeon');
+INSERT INTO  jeonnam_time_tb VALUES('14:00','충북',1000,28,28,'jeonnam_chungbuk');
+INSERT INTO  jeonnam_time_tb VALUES('15:00','전북',1000,28,28,'jeonnam_jeonbuk');
+INSERT INTO  jeonnam_time_tb VALUES('16:00','경북',1000,28,28,'jeonnam_gyeongbuk');
+INSERT INTO  jeonnam_time_tb VALUES('17:00','대구',1000,28,28,'jeonnam_daegu');
+INSERT INTO  jeonnam_time_tb VALUES('18:00','광주',1000,28,28,'jeonnam_gwangju');
+INSERT INTO  jeonnam_time_tb VALUES('19:00','경남',1000,28,28,'jeonnam_gyeongnam');
+INSERT INTO  jeonnam_time_tb VALUES('20:00','울산',1000,28,28,'jeonnam_ulsan');
+INSERT INTO  jeonnam_time_tb VALUES('21:00','부산',1000,28,28,'jeonnam_busan');
+
+
+INSERT INTO gyeongnam_time_tb VALUES('8:00'	,'서울',1000,28,28,'gyeongnam_seoul');
+INSERT INTO gyeongnam_time_tb VALUES('9:00'	,'경기',1000,28,28,'gyeongnam_gyeonggi');
+INSERT INTO gyeongnam_time_tb VALUES('10:00','인천',1000,28,28,'gyeongnam_incheon');
+INSERT INTO gyeongnam_time_tb VALUES('11:00','강원',1000,28,28,'gyeongnam_gangwon');
+INSERT INTO gyeongnam_time_tb VALUES('12:00','충남',1000,28,28,'gyeongnam_chungnam');
+INSERT INTO gyeongnam_time_tb VALUES('13:00','대전',1000,28,28,'gyeongnam_daejeon');
+INSERT INTO gyeongnam_time_tb VALUES('14:00','충북',1000,28,28,'gyeongnam_chungbuk');
+INSERT INTO gyeongnam_time_tb VALUES('15:00','전북',1000,28,28,'gyeongnam_jeonbuk');
+INSERT INTO gyeongnam_time_tb VALUES('16:00','경북',1000,28,28,'gyeongnam_gyeongbuk');
+INSERT INTO gyeongnam_time_tb VALUES('17:00','대구',1000,28,28,'gyeongnam_daegu');
+INSERT INTO gyeongnam_time_tb VALUES('18:00','광주',1000,28,28,'gyeongnam_gwangju');
+INSERT INTO gyeongnam_time_tb VALUES('19:00','전남',1000,28,28,'gyeongnam_jeonnam');
+INSERT INTO gyeongnam_time_tb VALUES('20:00','울산',1000,28,28,'gyeongnam_ulsan');
+INSERT INTO gyeongnam_time_tb VALUES('21:00','부산',1000,28,28,'gyeongnam_busan');
+
+
+INSERT INTO ulsan_time_tb VALUES('8:00','서울',1000,28,28,'ulsan_seoul');
+INSERT INTO ulsan_time_tb VALUES('9:00','경기',1000,28,28,'ulsan_gyeonggi');
+INSERT INTO ulsan_time_tb VALUES('10:00','인천	',1000,28,28,'ulsan_incheon');
+INSERT INTO ulsan_time_tb VALUES('11:00','강원	',1000,28,28,'ulsan_gangwon');
+INSERT INTO ulsan_time_tb VALUES('12:00','충남	',1000,28,28,'ulsan_chungnam');
+INSERT INTO ulsan_time_tb VALUES('13:00','대전	',1000,28,28,'ulsan_daejeon');
+INSERT INTO ulsan_time_tb VALUES('14:00','충북	',1000,28,28,'ulsan_chungbuk');
+INSERT INTO ulsan_time_tb VALUES('15:00','전북	',1000,28,28,'ulsan_jeonbuk');
+INSERT INTO ulsan_time_tb VALUES('16:00','경북	',1000,28,28,'ulsan_gyeongbuk');
+INSERT INTO ulsan_time_tb VALUES('17:00','대구	',1000,28,28,'ulsan_daegu');
+INSERT INTO ulsan_time_tb VALUES('18:00','광주	',1000,28,28,'ulsan_gwangju');
+INSERT INTO ulsan_time_tb VALUES('19:00','전남	',1000,28,28,'ulsan_jeonnam');
+INSERT INTO ulsan_time_tb VALUES('20:00','경남	',1000,28,28,'ulsan_gyeongnam');
+INSERT INTO ulsan_time_tb VALUES('21:00','부산',1000,28,28,'ulsan_busan');
+
+
+INSERT INTO busam_time_tb VALUES('8:00','서울',1000,28,28,'busan_seoul');
+INSERT INTO busam_time_tb VALUES('9:00','경기	',1000,28,28,'busan_gyeonggi');
+INSERT INTO busam_time_tb VALUES('10:00','인천',1000,28,28,'busan_incheon');
+INSERT INTO busam_time_tb VALUES('11:00','강원',1000,28,28,'busan_gangwon');
+INSERT INTO busam_time_tb VALUES('12:00','충남',1000,28,28,'busan_chungnam');
+INSERT INTO busam_time_tb VALUES('13:00','대전',1000,28,28,'busan_daejeon');
+INSERT INTO busam_time_tb VALUES('14:00','충북',1000,28,28,'busan_chungbuk');
+INSERT INTO busam_time_tb VALUES('15:00','전북',1000,28,28,'busan_jeonbuk');
+INSERT INTO busam_time_tb VALUES('16:00','경북',1000,28,28,'busan_gyeongbuk');
+INSERT INTO busam_time_tb VALUES('17:00','대구',1000,28,28,'busan_daegu');
+INSERT INTO busam_time_tb VALUES('18:00','광주',1000,28,28,'busan_gwangju');
+INSERT INTO busam_time_tb VALUES('19:00','전남',1000,28,28,'busan_jeonnam');
+INSERT INTO busam_time_tb VALUES('20:00','경남',1000,28,28,'busan_gyeongnam');
+INSERT INTO busam_time_tb VALUES('21:00','울산',1000,28,28,'busan_ulsan');
+
+
+
+
+
