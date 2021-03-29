@@ -6,5 +6,6 @@ create table ticketing_detail_tb (
     number_of_tickets number(2) not null,
     seat_number varchar2(20) not null,
     departure_date varchar2(20) not null,
-    ticketing_status number(1)
+    ticketing_status number(1),
+    bus_name varchar2(30) not null
 );

@@ -1,149 +1,164 @@
-# 서울
+
 create table seoul_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 경기
+
 create table gyeonggi_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 인천
+
 create table incheon_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 강원
+
 create table gangwon_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 충남
+
 create table chungnam_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 대전
+
 create table daejeon_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 충북
+
 create table chungbuk_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 전북
+
 create table jeonbuk_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+    remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 경북
+
 create table gyeongbuk_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 대구
+
 create table daegu_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 광주
+
 create table gwangju_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+    remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 전남
+
 create table jeonnam_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 경남
+
 create table gyeongnam_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+	remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 울산
+
 create table ulsan_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+    remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );
 
-# 부산
+
 create table busam_time_tb (
     departure_time varchar2(6) not null,
+    departure_area varchar2(10) not null, 
     destination varchar2(6) not null,
     ticket_price number(4) not null,
-		remaining_seats number(2) not null,
+    remaining_seats number(2) not null,
     total_seats number(2) not null,
     bus_name varchar2(30)
 );

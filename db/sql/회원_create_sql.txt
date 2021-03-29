@@ -3,5 +3,6 @@ create table member_tb (
     password varchar2(100) not null,
     phone varchar2(13) not null,
     birthd varchar2(10) not null,
-    point number(5) default 1000
+    point number(5) default 10000,
+    registration_date date default	
 );
