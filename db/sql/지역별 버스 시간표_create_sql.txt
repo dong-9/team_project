@@ -1,8 +1,10 @@
+/*SELECT 'DROP TABLE "' || TABLE_NAME || '" CASCADE CONSTRAINTS;' FROM user_tables;*/
+
 
 create table seoul_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -11,9 +13,9 @@ create table seoul_time_tb (
 
 
 create table gyeonggi_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -22,9 +24,9 @@ create table gyeonggi_time_tb (
 
 
 create table incheon_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -33,9 +35,9 @@ create table incheon_time_tb (
 
 
 create table gangwon_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -44,9 +46,9 @@ create table gangwon_time_tb (
 
 
 create table chungnam_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -55,9 +57,9 @@ create table chungnam_time_tb (
 
 
 create table daejeon_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -66,9 +68,9 @@ create table daejeon_time_tb (
 
 
 create table chungbuk_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -77,9 +79,9 @@ create table chungbuk_time_tb (
 
 
 create table jeonbuk_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
     remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -88,9 +90,9 @@ create table jeonbuk_time_tb (
 
 
 create table gyeongbuk_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -99,9 +101,9 @@ create table gyeongbuk_time_tb (
 
 
 create table daegu_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -110,9 +112,9 @@ create table daegu_time_tb (
 
 
 create table gwangju_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
     remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -121,9 +123,9 @@ create table gwangju_time_tb (
 
 
 create table jeonnam_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -132,9 +134,9 @@ create table jeonnam_time_tb (
 
 
 create table gyeongnam_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
 	remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -143,9 +145,9 @@ create table gyeongnam_time_tb (
 
 
 create table ulsan_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
     remaining_seats number(2) not null,
     total_seats number(2) not null,
@@ -154,9 +156,9 @@ create table ulsan_time_tb (
 
 
 create table busam_time_tb (
-    departure_time varchar2(6) not null,
+    departure_time varchar2(10) not null,
     departure_area varchar2(10) not null, 
-    destination varchar2(6) not null,
+    destination varchar2(10) not null,
     ticket_price number(4) not null,
     remaining_seats number(2) not null,
     total_seats number(2) not null,

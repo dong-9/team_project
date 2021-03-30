@@ -4,5 +4,5 @@ create table member_tb (
     phone varchar2(13) not null,
     birthd varchar2(10) not null,
     point number(5) default 10000,
-    registration_date date default	
+    registration_date date default	sysdate
 );
